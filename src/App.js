@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import Education from './components/Education';
-import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
 function App() {
   return (
