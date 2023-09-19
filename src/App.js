@@ -1,13 +1,18 @@
 import React from 'react';
 import Header from './components/Header';
 import Education from './components/Education';
+import Projects from './components/Projects';
+import Extracurricular from './components/Extracurricular';
+import SkillsAndLanguages from './components/SkillsAndLanguages';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Education />
-      {/* You can continue adding other sections similarly */}
+      <Projects />
+      <Extracurricular />
+      <SkillsAndLanguages />
     </div>
   );
 }
